@@ -20,12 +20,12 @@
       <div class="wrapper">
         <div class="menu-bar">
           <p class="logo">
-            <a href="#">Logo</a>
+            <a href="#" onclick="getElementById('menu-button').checked = false">Logo</a>
           </p>
 
           <p></p>
           <nav>
-            <ul class="menu-links">
+            <ul class="menu-links" onclick="getElementById('menu-button').checked = false">
               <li><a href="#novidades">Novidades</a></li>
               <li><a href="#myGrid">My Grid</a></li>
               <li><a href="#gallery">Gallery</a></li>
@@ -346,5 +346,7 @@
     </footer>
 
     <a class="back-to-top" href="#">➤</a>
+
+    <script src="assets/main.js"></script>
   </body>
 </html>
