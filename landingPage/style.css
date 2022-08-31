@@ -135,9 +135,12 @@ body {
 }
 
 .novidades h2 {
+  display: flex;
   font-family: 'Montserrat', sans-serif;
   font-size: 6rem;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .novidades p {
@@ -413,6 +416,7 @@ tfoot td {
     display: grid;
     gap: 3rem;
     min-height: 100vh;
+    height: unset;
   }
 
   .intro-text h1 {
