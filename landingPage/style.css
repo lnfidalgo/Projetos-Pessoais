@@ -251,6 +251,7 @@ body {
 table {
   width: 100%;
   border-collapse: collapse;
+  min-width: 70rem;
 }
 
 table caption {
